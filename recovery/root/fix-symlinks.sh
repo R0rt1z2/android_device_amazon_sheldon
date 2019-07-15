@@ -31,3 +31,7 @@ ln -s /dev/null /dev/block/platform/soc/by-name/boot0img0
 ln -s /dev/null /dev/block/platform/soc/by-name/boot0img1
 ln -s /dev/null /dev/block/platform/soc/by-name/tee1
 ln -s /dev/null /dev/block/platform/soc/by-name/tee2
+
+# FIXUP for Android 6.0+
+ln -s /dev/block/platform/soc /dev/block/platform/soc/11230000.mmc
+ln -s /dev/block/platform/soc /dev/block/platform/soc/11230000.MSDC0
