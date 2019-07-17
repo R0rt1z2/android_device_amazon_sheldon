@@ -50,4 +50,4 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 
 TW_AMONET := true
-TW_DEFAULT_BACKUP_LIST := "/system_image;/data;/boot;"
+TW_DEFAULT_BACKUP_LIST := "/system_image;/vendor_image;/data;/boot;"
