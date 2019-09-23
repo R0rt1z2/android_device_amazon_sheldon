@@ -1,3 +1,3 @@
-add_lunch_combo omni_karnak-eng
-add_lunch_combo omni_karnak-userdebug
-add_lunch_combo omni_karnak-user
+add_lunch_combo omni_mantis-eng
+add_lunch_combo omni_mantis-userdebug
+add_lunch_combo omni_mantis-user
