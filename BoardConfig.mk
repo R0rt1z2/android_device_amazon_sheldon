@@ -55,6 +55,12 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 #TW_INCLUDE_CRYPTO := true
 #TW_CRYPTO_USE_SYSTEM_VOLD := true
 
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
+
+TW_NO_BATT_PERCENT := true
+TW_NO_SCREEN_TIMEOUT := true
 TW_AMONET := true
 TW_HACKED_BL_BUTTON := true
+TW_BOOT_MENU := true
 TW_DEFAULT_BACKUP_LIST := "/system_image;/vendor_image;/data;/boot;"
