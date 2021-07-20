@@ -7,3 +7,7 @@ PRODUCT_NAME := omni_sheldon
 PRODUCT_DEVICE := sheldon
 PRODUCT_BRAND := Android
 PRODUCT_MANUFACTURER := Amazon
+
+# Property overrides
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.treble.enabled=true
