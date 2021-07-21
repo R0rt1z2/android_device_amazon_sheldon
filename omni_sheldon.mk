@@ -1,6 +1,8 @@
-# Inherits
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-$(call inherit-product, device/amazon/sheldon/device.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+
+# Inherit from our TWRP configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Product
 PRODUCT_NAME := omni_sheldon
