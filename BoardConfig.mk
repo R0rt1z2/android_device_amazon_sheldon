@@ -39,7 +39,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TW_THEME := landscape_hdpi
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # Recovery Image
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00000000 --ramdisk_offset 0x03400000 --second_offset 0x00ef8000 --tags_offset 0x0dff8000
