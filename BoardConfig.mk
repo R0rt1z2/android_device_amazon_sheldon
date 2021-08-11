@@ -67,3 +67,5 @@ TW_BOOT_MENU := true
 TW_DEFAULT_BACKUP_LIST := "/system_image;/vendor_image;/data;/boot;"
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.product;ro.product.device;ro.product.model;ro.product.name"
 TW_INCLUDE_RESETPROP := true
+TW_DELAY_TOUCH_INIT_MS := 500000
+#TWRP_EVENT_LOGGING := true
