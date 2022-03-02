@@ -32,6 +32,9 @@ ln -s /dev/null /dev/block/platform/soc/11230000.mmc/by-name/lk
 ln -s /dev/null /dev/block/platform/soc/11230000.mmc/by-name/tee1
 ln -s /dev/null /dev/block/platform/soc/11230000.mmc/by-name/tee2
 
+rm -rf /dev/block/by-name
+ln -s platform/soc/11230000.mmc/by-name /dev/block/by-name
+
 # FIXUP for Android 6.0+
 #ln -s /dev/block/platform/soc/11230000.mmc /dev/block/platform/soc/11230000.mmc/11230000.mmc
 #ln -s /dev/block/platform/soc/11230000.mmc /dev/block/platform/soc/11230000.mmc/11230000.MSDC0
